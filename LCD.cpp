@@ -2166,7 +2166,7 @@ void lcd_telemetry() {
     } else {
 #if (LOG_VALUES >= 2)
       LCDsetLine(2);
-      output_cycleMinMax());
+      output_cycleMinMax();
 #endif
     }
     break;
